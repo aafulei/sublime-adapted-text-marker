@@ -1,0 +1,41 @@
+[
+    {
+        "id": "tools",
+        "children": [
+            {
+                "id": "text-marker",
+                "caption": "Text Marker",
+                "children": [
+                    {
+                        "caption": "Text Marker",
+                        "command": "text_marker",
+                        "checkbox": true
+                    },
+                    {
+                        "caption": "Reset Text Marker",
+                        "command": "text_marker_reset",
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "caption": "Package Settings",
+                "children": [
+                    {
+                        "caption": "Text Marker Settings",
+                        "command": "edit_settings",
+                        "args": {
+                            "base_file": "${packages}/sublime-text-marker/sublime-text-marker.sublime-settings",
+                            "default": "/*\n\tText Marker user settings in here override the default\n*/\n{\n\t\"user\": {\n\t\t$0\n\t}\n}\n"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

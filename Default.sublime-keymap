@@ -1,0 +1,5 @@
+[
+    // { "keys": [ "alt+space" ], "command": "text_marker",  },
+    // { "keys": [ "alt+shift+space" ], "command": "text_marker_clear" }
+    // { "keys": [ "primary+alt+shift+space" ], "command": "text_marker_reset" }
+]
