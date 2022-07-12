@@ -14,6 +14,10 @@ My own version of the [Text Marker](https://packagecontrol.io/packages/Text%20Ma
 
     - Fix - catch and let it pass
 
+- `log.error("Not Updated: Schema format not recognized")` complains whenever the focus is in console
+
+    - Fix - comment that line out
+
 ## Install
 
 ### Command Palette

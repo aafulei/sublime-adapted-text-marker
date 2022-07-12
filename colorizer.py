@@ -241,8 +241,8 @@ class SchemaColorizer(object):
                     write_package(self.color_scheme.path, content)
                     log.debug("Updated tmTheme")
                     return
-
-                log.error("Not Updated: Schema format not recognized")
+                # the line below complains whenever focus is in console
+                # log.error("Not Updated: Schema format not recognized")
             except Exception as e:
                 import traceback; traceback.print_exc();
                 log.error("Not Updated: %r" % e)
