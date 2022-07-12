@@ -1,8 +1,8 @@
-# My Text Marker
+# My Adapted Text Marker Plugin for Sublime Text 3
 
 ![](img/screenshot.gif)
 
-My own version of the [Text Marker](https://packagecontrol.io/packages/Text%20Marker) plugin, with bugfixes and adaptations, for Sublime Text.
+My own version of the [Text Marker](https://packagecontrol.io/packages/Text%20Marker) plugin, with bugfixes and adaptations, for Sublime Text 3.
 
 ## Problems & Fixes
 
@@ -25,14 +25,16 @@ My own version of the [Text Marker](https://packagecontrol.io/packages/Text%20Ma
 ```
 1. Package Control: Add Repository
 
-    https://github.com/aafulei/sublime-text-marker
+    https://github.com/aafulei/sublime-adapted-text-marker
 
 2. Package Control: Install Package
 
-    sublime-text-marker
+    sublime-adapted-text-marker
 ```
 
 ### Configuration
+
+#### Recommended Key Bindings
 
 - `Default (Windows).sublime-keymap`
 - `Default (OSX).sublime-keymap`
@@ -48,7 +50,7 @@ My own version of the [Text Marker](https://packagecontrol.io/packages/Text%20Ma
 ]
 ```
 
-- `sublime-text-marker.sublime-settings`
+- `sublime-adapted-text-marker.sublime-settings`
 
 ```json
 {
