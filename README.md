@@ -10,7 +10,7 @@ My own version of the [Text Marker](https://packagecontrol.io/packages/Text%20Ma
 
     - Fix - remove
 
-- Invalid `path` leads to `IOError` in `read_package()` in [`colorizer.py`](./colorizer.py) when focus is in console
+- Invalid `path` leads to `IOError` in `read_package()` in [`colorizer.py`](./colorizer.py) when the focus is in console
 
     - Fix - catch and let it pass
 
@@ -49,6 +49,8 @@ My own version of the [Text Marker](https://packagecontrol.io/packages/Text%20Ma
     { "keys": ["primary+k", "primary+i", "primary+v"], "command": "text_marker_toggle_setting", "args": { "setting": "live" } }
 ]
 ```
+
+#### User Settings
 
 - `sublime-adapted-text-marker.sublime-settings`
 

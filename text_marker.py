@@ -8,7 +8,7 @@ from itertools import chain
 from .settings import Settings, SettingTogglerCommandMixin
 from .colorizer import SchemaColorizer
 
-NAME = "sublime-text-marker"
+NAME = "sublime-adapted-text-marker"
 VERSION = "1.2.3"
 
 DEFAULT_COLORS = ['comment']
